@@ -1,0 +1,301 @@
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>FinalPrep</title>
+
+  <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" >
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js">
+
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+<link href='https://fonts.googleapis.com/css?family=Yesteryear' rel='stylesheet' type='text/css'>
+
+
+
+  </head>
+  <style>
+  *{
+     margin: 0;
+     padding: 0;
+     font-family: Ariel, "Helvetica neue", Helavatica, sans-serif;
+     -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+     box-sizing: border-box;
+  }
+
+  .login-box{
+      width: 500px;
+      background-color: rgba(10,10,10,0.6);
+      margin: 100px auto;
+      border-radius: 10px;
+
+      box-shadow: 0 0 10px 5px #000;
+  }
+  .info{
+         width: 500px;
+         padding-top: 10px;
+         font-size: 30px;
+         color: #fff;
+         text-align: center;
+         text-shadow: 1px 1px 1px #000;
+
+        }
+        .form-box{
+         padding: 25px;
+        }
+      .inp{
+       width: 100%;
+       padding: 12px;
+       margin-bottom: 3px;
+       border: none;
+       border-radius: 5px;
+       font-size: 20px;
+       border-bottom: 2px solid #000;
+       color: #dc143c;
+      }
+
+      .inp:focus{
+                  outline: none;
+                  border-bottom: 2px solid #dc143c;
+                  color: #dc143c;
+      }
+      .sub-btn{
+           padding: 12px;
+           width: 100%;
+           border-radius: 5px;
+           background: linear-gradient(#00bfff,navy);
+           border: 0;
+           box-sizing: border-box;
+           color: #fff;
+           cursor: pointer;
+           font-size: 20px;
+           border-bottom: 2px solid #000;
+           text-shadow: 1px 1px 1px #000;
+
+  }
+      .sub-btn:hover{
+            background: linear-gradient(#dc143c,#8b0000);
+      }
+      .sub-btn:focus{
+            outline: none;
+      }
+      .rem{
+       margin-bottom: 10px;
+       margin-top: 10px;
+       width: 20px;
+       height: 20px;
+     }
+
+      .f-pass{
+            float: right;
+            margin-top: 12px;
+            color: #fff;
+            text-shadow: 1px 1px 1px #000;
+      }
+      .account{
+             margin-top: 10px;
+             text-align: center;
+             color: #fff;
+             font-size: 25px;
+             text-shadow: 0 2px 1px #000
+      }
+      .reg{
+            display: block;
+            width: 100%;
+            padding: 12px;
+            text-align: center;
+            text-decoration: none;
+            background: linear-gradient(#dc143c,#8b0000);
+            color: #fff;
+            border-radius: 5px;
+            border-bottom: 2px solid #000;
+            font-size: 20px;
+            text-shadow: 1px 1px 1px #000;
+
+      }
+      .reg:hover{
+           background: linear-gradient(#00bfff,navy);
+      }
+      @media (max-width: 720px){
+          .login-box{
+                       width: 90%;
+                       border : 10px ridge #00bfff;
+          }
+      }
+
+
+      .navbar-default{
+        background:#996666;
+        border-color: transparent;
+      }
+
+      #header1{
+            padding-top:90px ;
+            font-size:80px;
+            color:white;
+            position: absolute important!;
+        }
+
+  #para1{
+    color:white;
+    padding:0px 0px 30px 0px;
+    position: absolute important!;
+  }
+      .fa-google-plus {
+      background: #dd4b39;
+      color: white;
+      font-size: 30px;
+      padding: 20px 20px 20px 25px;
+      }
+      .fa-facebook {
+      background: #3B5998;
+      font-size:30px;
+      padding: 20px 25px 20px 30px;
+      color: white;
+
+      }
+      .container-fluid {
+            padding-top: 70px;
+            padding-bottom: 70px;
+        }
+
+      .bg-4 {
+        background-color: #996666; /* Black Gray */
+        color: #fff;
+
+    }
+      .navbar-brand{
+      font-family: 'Yesteryear', cursive;
+      color : white;
+      font-size : 35px;
+      }
+
+    /* background */
+      #home1{
+        background-image: url("");
+        background-color: #cccccc;
+         background-repeat: no-repeat;
+         background-position: absolute;
+         background-image: 100%;
+         background-size: cover;
+         background-attachment: fixed;
+    }
+    #signup1{
+      background-image: url("https://mikemcclaughry.files.wordpress.com/2014/02/library-dark.jpg");
+      background-color: #cccccc;
+       background-repeat: no-repeat;
+       background-position: absolute;
+       background-image: 100%;
+       background-size: cover;
+       background-attachment: fixed;
+  }
+  #login1{
+    background-image: url("https://savvybookwriters.files.wordpress.com/2013/11/library_pataskala_026.jpg");
+    background-color: #cccccc;
+     background-repeat: no-repeat;
+     background-position: absolute;
+     background-image: 100%;
+     background-size: cover;
+     background-attachment: fixed;
+  }
+  </style>
+
+
+
+  <body >
+
+    <nav class="navbar navbar-default  navbar-fixed-top" id="my-navbar" role"navigation">
+    <div class="container">
+    <div class="navbar-header">
+       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+
+      </button>
+
+      <a class="navbar-brand"  id="name" style="color:white"href="../college website/home.html">FinalPrep <span class="glyphicon glyphicon-king" aria-hidden="true"></a>
+    </div>
+
+    <div class="collapse navbar-collapse  " id="navbar-collapse">
+      <ul class="nav navbar-nav  navbar-right ">
+        <li><a href="../college website/home.html" style="color:white">Home</a></li>
+        <li><a href="" style="color:white">Notes</a></li>
+        <li><a href="" style="color:white">About Us</a></li>
+        <li><a href="" style="color:white">Contact Us</a></li>
+            <li><a href="../college website/signup.html" style="color:white"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+            <li><a href="../college website/login.html" style="color:white"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+          </ul>
+
+
+
+</div>
+</div>
+</nav>
+
+
+<div  id="home1">
+  <h1 id="header1" class="text-center">FinalPrep</h1>
+  <p id="para1" class="text-center">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
+    Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec,
+     pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.
+     In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus.
+     Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante,
+      dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue.
+       Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing
+       sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. </p>
+<center>     <a href="" target="_blank" class="btn btn-primary" data-animation="animated fadeInRight">About Us</a>
+     <a href="" target="_blank" class="btn btn-primary" data-animation="animated fadeInRight">Contact us</a><br><br>  </center>
+     <br>
+     <br>
+     <br>
+                  </div>
+
+
+
+<section>
+<center>  <a href="" style="align:center">
+Home </a>          |
+  <a href="" >About&nbsp;&nbsp; </a>
+  <a href="" > Advertising&nbsp;&nbsp; </a>
+  <a href="" >FAQ&nbsp;&nbsp;</a>    |
+  <a href="" >Login&nbsp;&nbsp;</a>
+  <a href="" >Sign up&nbsp;&nbsp;</a> </center>
+  <br>
+
+<center>   <small>  Follow Us</small></center>
+
+<center > <a href="#" class="fa fa-facebook"></a>
+  <a href="#" class="fa fa-google-plus"></a></center>
+
+<center><p>Copyright Finalprep © 2017</p></center>
+<br>
+
+
+
+</section>
+
+
+
+
+    <script
+      src="https://code.jquery.com/jquery-2.2.4.js"
+      integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="
+      crossorigin="anonymous"></script>
+
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+    integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+    crossorigin="anonymous"></script>
+  </body>
+  </html>
